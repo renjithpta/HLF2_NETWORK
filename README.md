@@ -17,7 +17,10 @@ More info in Medium tutorials
 `./network.sh up createChannel`
 
 # Deploy the chaincode
-`./network.sh deployCC -l java`
+`./network.sh deployCC -l java` :
+
+This script also test the ERc20 function like transfer. You can add more functionality.You can check the source code.
+
 
 # Stop the network
 `./network.sh down`
